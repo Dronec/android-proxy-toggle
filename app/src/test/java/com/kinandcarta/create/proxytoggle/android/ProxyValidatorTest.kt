@@ -12,7 +12,8 @@ import org.robolectric.annotation.Config
 class ProxyValidatorTest {
 
     companion object {
-        private const val ADDRESS = "1.2.3.4"
+        private const val ADDRESS_IP = "1.2.3.4"
+        private const val ADDRESS_DOMAIN = "my.proxy.com"
         private const val PORT = "515"
 
         private const val INVALID_ADDRESS = "1.2.3"
@@ -27,7 +28,12 @@ class ProxyValidatorTest {
 
     @Test
     fun `isValidIP() - GIVEN a valid IP THEN return true`() {
-        assertThat(subject.isValidIP(ADDRESS)).isTrue()
+        assertThat(subject.isValidIP(ADDRESS_IP)).isTrue()
+    }
+
+    @Test
+    fun `isValidDomain() - GIVEN a valid IP THEN return true`() {
+        assertThat(subject.isValidIP(ADDRESS_DOMAIN)).isTrue()
     }
 
     @Test

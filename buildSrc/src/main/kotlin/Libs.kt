@@ -52,35 +52,50 @@ object Libs {
             Versions.org_jetbrains_kotlin
 
     /**
-     * https://developer.android.com/jetpack/androidx
+     * https://developer.android.com/jetpack/androidx/releases/lifecycle#2.3.1
      */
     const val lifecycle_livedata_ktx: String = "androidx.lifecycle:lifecycle-livedata-ktx:" +
             Versions.androidx_lifecycle
 
     /**
-     * https://developer.android.com/jetpack/androidx
+     * https://developer.android.com/jetpack/androidx/releases/lifecycle#2.3.1
      */
     const val lifecycle_viewmodel_ktx: String = "androidx.lifecycle:lifecycle-viewmodel-ktx:" +
             Versions.androidx_lifecycle
 
+    /**
+     * https://github.com/google/dagger
+     */
     const val hilt_android: String = "com.google.dagger:hilt-android:" + Versions.com_google_dagger
 
+    /**
+     * https://github.com/google/dagger
+     */
     const val hilt_android_compiler: String = "com.google.dagger:hilt-android-compiler:" +
             Versions.com_google_dagger
 
+    /**
+     * https://github.com/google/dagger
+     */
     const val hilt_android_gradle_plugin: String = "com.google.dagger:hilt-android-gradle-plugin:" +
             Versions.com_google_dagger
 
+    /**
+     * https://github.com/google/dagger
+     */
     const val hilt_android_testing: String = "com.google.dagger:hilt-android-testing:" +
             Versions.com_google_dagger
 
+    /**
+     * https://developer.android.com/jetpack/androidx/releases/hilt#1.0.0
+     */
     const val hilt_compiler: String = "androidx.hilt:hilt-compiler:" + Versions.androidx_hilt
 
     const val hilt_lifecycle_viewmodel: String = "androidx.hilt:hilt-lifecycle-viewmodel:" +
             Versions.androidx_hilt
 
     /**
-     * https://developer.android.com/studio
+     * http://tools.android.com/
      */
     const val com_android_tools_build_gradle: String = "com.android.tools.build:gradle:" +
             Versions.com_android_tools_build_gradle
@@ -130,12 +145,12 @@ object Libs {
     const val core_testing: String = "androidx.arch.core:core-testing:" + Versions.core_testing
 
     /**
-     * https://developer.android.com/jetpack/androidx
+     * https://developer.android.com/jetpack/androidx/releases/fragment#1.3.6
      */
     const val fragment_ktx: String = "androidx.fragment:fragment-ktx:" + Versions.fragment_ktx
 
     /**
-     * https://developer.android.com/studio
+     * http://tools.android.com/
      */
     const val lint_gradle: String = "com.android.tools.lint:lint-gradle:" + Versions.lint_gradle
 
@@ -147,24 +162,19 @@ object Libs {
     const val viewbinding: String = "androidx.databinding:viewbinding:" + Versions.viewbinding
 
     /**
-     * https://developer.android.com/jetpack/androidx
+     * https://developer.android.com/jetpack/androidx/releases/appcompat#1.3.1
      */
     const val appcompat: String = "androidx.appcompat:appcompat:" + Versions.appcompat
 
     /**
-     * https://developer.android.com/jetpack/androidx
+     * https://developer.android.com/jetpack/androidx/releases/core#1.6.0
      */
     const val core_ktx: String = "androidx.core:core-ktx:" + Versions.core_ktx
 
     /**
-     * http://developer.android.com/tools/extras/support-library.html
+     * https://github.com/material-components/material-components-android
      */
     const val material: String = "com.google.android.material:material:" + Versions.material
-
-    /**
-     * https://developer.android.com/studio
-     */
-    const val aapt2: String = "com.android.tools.build:aapt2:" + Versions.aapt2
 
     /**
      * http://mockk.io

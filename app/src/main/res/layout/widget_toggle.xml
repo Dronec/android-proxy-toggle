@@ -78,14 +78,6 @@
                     android:textColor="@color/white"
                     tools:text="10.10.5.15" />
 
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/widget_xlarge_margin"
-                android:orientation="vertical">
-
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -102,6 +94,15 @@
                     android:fontFamily="@font/dmsans"
                     android:textColor="@color/white"
                     tools:text="8888" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/widget_xlarge_margin"
+                android:orientation="vertical">
+
             </LinearLayout>
 
         </LinearLayout>
